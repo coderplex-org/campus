@@ -3,14 +3,14 @@
 
 Coderplex Campus is a community-driven initiative to improve the state of tech in India. We welcome our community to contribute to help us make this happen. There are many ways you can make differnce:
 
-1. Host a meetup
-2. Help us with the codebase 
-3. Contribute to the guides 
-4. Attend and discuss improvements
-5. Become an ambassador
+- [Meet](#meet)
+- [Help us with the codebase](#codebase)
+- Contribute to the guides 
+- Attend and discuss improvements
+- Become an ambassador
 
 
-# Hosting a meetup
+# Host a meetup
 We encourage organizations to partner with us and host meetups ona a variety of agendas from industry talks to hosting hackathons and coding competitors. To host one please email us at mailto:meetup@coderplex.org.
 
 
@@ -178,5 +178,76 @@ Reference: Issue #228
 
 
 
-`### 
+### Creating a Pull Request
+##### What is a Pull Request?
+A pull request (PR) is a method of submitting proposed changes to the freeCodeCamp repo (or any repo, for that matter). You will make changes to copies of the files which make up freeCodeCamp in a personal fork, then apply to have them accepted by freeCodeCamp proper
+
+###### Need Help? 
+If you require any assiatnce feel free to ping the [Contributors chat room]()
+
+>Important: ALWAYS **EDIT ON A SEPERATEBRANCH**
+**NEVER** COMMIT TO THE **STAGING** BRANCH
+
+#### Methods
+**There are two methods of creating a pull request:**
+
+Editing files on a local clone (recommended)
+- Editing files via the GitHub Interface
+- Method 1: Editing via your Local Fork (Recommended)
+
+**Editing files on a local clone (recommended)**
+This is the recommended method. Read about How to Seting up a Development Environment.
+
+Rebase with `staging`.
+
+Make sure you see this message on runnning `git status`
+
+`nothing to commit, working directory clean`
+
+If you are not on staging or your working directory is not clean, resolve any outstanding files/commits and checkout staging 
+
+`git checkout staging`
+
+Create a branch off of staging with git:
+
+`git checkout -B branch/name-here`
+
+>Note: Branch naming is important. Use a naming convention fix/short-fix-description or feature/short-feature-description. Review the  guidelines for more detail.
+
+Edit your file(s) locally with the editor of your choice
+
+Check your git status to see unstaged files.
+
+###### Add your edited files: 
+
+`git add path/to/filename.ext`
+
+You can also do: 
+`git add .`
+to add all unstaged files. Take care, though, because you can accidentally add files you don't want added. Review your git status first.
+
+**Squash your commits if there are more than one.**
+
+If you would want to add/remove changes to previous commit, add the files as in Step 5 earlier, and use git commit --amend or git commit --amend --no-edit (for keeping the same commit message).
+
+Push your commits to your GitHub Fork: `git push origin branch/name-here`
+
+
+**Method 2: Editing via the GitHub Interface**
+
+>Note: Editing via the GitHub Interface is not recommended, since it is not possible to update your fork via GitHub's interface without deleting and recreating your fork.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
