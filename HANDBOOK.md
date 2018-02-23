@@ -3,6 +3,9 @@
 
 Coderplex Campus is a community-driven initiative to improve the state of tech in India. We welcome our community to contribute to help us make this happen. There are many ways you can make differnce:
 
+If you are new to open source,  the [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github) guide gives you a quick overview on getting started.
+
+>NOTE THAT ALL CONTRIBUTORS ARE EXPECTED TO ADHRE TO THE [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
 ##Contents
 - Host a Meetup
 - Help us with the codebase
