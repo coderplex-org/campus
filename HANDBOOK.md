@@ -1,10 +1,11 @@
-# Contributor Handbook
+# The Contributor Handbook
 ------
 
 Coderplex Campus is a community-driven initiative to improve the state of tech in India. We welcome our community to contribute to help us make this happen. There are many ways you can make differnce:
 
-- [Meet](#meet)
-- [Help us with the codebase](#codebase)
+##Contents
+- Host a Meetup
+- Help us with the codebase
 - Contribute to the guides 
 - Attend and discuss improvements
 - Become an ambassador
@@ -230,24 +231,57 @@ to add all unstaged files. Take care, though, because you can accidentally add f
 
 If you would want to add/remove changes to previous commit, add the files as in Step 5 earlier, and use git commit --amend or git commit --amend --no-edit (for keeping the same commit message).
 
-Push your commits to your GitHub Fork: `git push origin branch/name-here`
-
+Push your commits to your GitHub Fork: `git push origin branch-name-here`
+ur branch name 
+>Replace `banch-name-here` with yo
 
 **Method 2: Editing via the GitHub Interface**
 
 >Note: Editing via the GitHub Interface is not recommended, since it is not possible to update your fork via GitHub's interface without deleting and recreating your fork.
 
 
+#### PR Reviews
+PR's are reviewed by Issue Moderators who check for two things:
+
+- Code quality
+- It's not introuducing any new bugs
+
+>Those who hae experience with developing in Elixir/Phoenix and are willing to become an issue moderator may contact [@akhil]()
+
+#### Stale Issues
+
+We close stale issues **unless:**
+
+- bugs that are confirmed
+- pull requests that are waiting on other pull requests to be merged
+- features that are a part of a GitHub project
+
+###### If your PR is accepted
+
+Once your PR is accepted, you may delete the branch
+
+`$ git -D branch/name-of-branch`
 
 
+and delete remote and local branches 
 
 
+###### If your PR is rejected
+
+Don't worry! You can make changes based on the comments by the reviewers.
+
+If the branch still exists on your local machine,you may make the required changes and amend the commit message by running:
+
+`$ git commit --amend`
 
 
+# Contribute to the Guides
+Have knowledge you want to share? Programmers often lookup  stuff while working. Be the person behind them. Click [here]() to view existing guides. To create a new guide, open an issue in te [learn repository]()
 
+# Attend and discuss improvevents
+Be apart of shaping the future - The Coderplex Campus - our ambitous online project for the future of tech Attend our meetups and make a contribution.
+For a list of meetups, click [here]()
 
+# Units 
 
-
-
-
-
+A unit is a coderplex backed student community hosted on a college campus. To know more about units click [here]()
