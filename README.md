@@ -16,7 +16,7 @@ We value your opinion, your contributions too! Navigate  to the Contribute secti
 
 ## License
 
-The Coderplex Campus platform is built on the #-Clause BSD license. View it [here](https://github.com/coderplex/coderplex/LICENSE.md)
+The Coderplex Campus platform is built on the #-Clause BSD license. View it [here](LICENSE.md)
 
 ## Reporting bugs
 

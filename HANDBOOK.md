@@ -6,7 +6,8 @@ Coderplex Campus is a community-driven initiative to improve the state of tech i
 If you are new to open source,  the [How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github) guide gives you a quick overview on getting started.
 
 >NOTE THAT ALL CONTRIBUTORS ARE EXPECTED TO ADHRE TO THE [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
-##Contents
+
+## Contents
 - Host a Meetup
 - Help us with the codebase
 - Contribute to the guides 
@@ -29,7 +30,7 @@ The platform is built on the following stack:
 Package |	Version |
 | ------- | :------ |
 [Vue.js](http://www.vuejs.org) |	~ ^2.8 |
-[PostgreSQL](http://www.postgresql.org) |	~10.2n|
+[PostgreSQL](http://www.postgresql.org) |	~10.2|
 [Elixir](http://www.elixir-lang.org) | 	~ ^1.6.0 |
 [Phoenix]( http://www.phoenixframework.org)	 | ~ ^1.3.0 |
 
