@@ -1,7 +1,18 @@
 [logo]: https://res.cloudinary.com/coderplex/image/upload/c_scale,w_1024/v1510788480/website__assets/banner1280x370.png "Campus"
 
-# Welcome to the Coderplex Campus repo!
+# Welcome to the Coderplex Campus codebase!
 
+The coderplex campus plaform is an online platform that brings together developers and CS enthusiasts together to improve individual skill sets and make them industry-ready.
+
+### How does it work?
+
+We hold webinars, hackathons, code challenges, pair programming events,  one-on-mentoring amd a lot more.
+
+We have seminars, talks and discussions with  industry experts to discuss the gap in between the current education system and industry and tailor our platform accordingly. 
+
+We value your opinion, your contributions too! Navigate  to the Contribute section to know more and go througb the campus codebase.
+
+ 
 
 ## License
 
